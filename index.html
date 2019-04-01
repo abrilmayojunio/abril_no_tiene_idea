@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>FrontEnd | Describir y programar</title>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body class="hidden">
+  <div class="texto">
+    <p><small></small></p>
+    <h1>FrontEnd</h1>
+    <h2>Describir y programar</h2>
+    <h4><span id="denominacion"></span><span id="envejecimiento"></span></h4>
+    <p>Con esta página web podrás lanzarte a la piscina del <strong>FrontEnd</strong>. Para no ahogarte, tendrás que aprender a flotar en dos lenguajes descriptivos y un lenguaje de programación. Los dos primeros son <a href="#html">HTML</a> y <a href="#css">CSS</a>. El lenguaje de programación es <a href="#js">JavaScript</a>.</p>
+    <h3 id="html">HTML</h3>
+    <p><a href="https://github.com/profesorfaco/modulo-web/wiki/HTML" title="Wiki del Repositorio" target="_blank">HTML es <span lang="en">HyperText Markup Language</span></a>. Su bloque constructivo más básico es el elemento. Cada <a href="https://developer.mozilla.org/es/docs/Web/HTML/Elemento" target="_blank" title="Referencia de Elementos HTML">elemento</a> se escribe, generalmente, entre etiquetas que pueden o no contener <a href="https://developer.mozilla.org/es/docs/Web/HTML/Atributos" title="Referencia de Atributos HTML" target="_blank">atributos</a>:</p>
+    <pre><code>&lt;etiqueta atributo="valor"&gt;contenido&lt;/etiqueta&gt;</code></pre>
+    <h3 id="css">CSS</h3>
+    <p><a href="https://github.com/profesorfaco/bases/wiki/CSS" title="Wiki del Repositorio" target="_blank">CSS es <span lang="en">Cascading Style Sheets</span></a>. Su bloque constructivo más básico es la regla. Cada regla se inicia con su(s) <a href="https://developer.mozilla.org/es/docs/Web/CSS/Referencia_CSS#Selectores" target="_blank" title="Referencia CSS">selector(es)</a>, para luego contener, entre paréntesis de llave, determinadas <a href="https://www.w3schools.com/cssref/default.asp" target="_blank" title="CSS Properties">propiedades</a>:</p>
+    <pre><code>selector{propiedad:valor;}</code></pre>
+    <h3 id="js">JavaScript</h3>
+    <p>HTML y CSS son lenguajes descriptivos. No son lenguajes de programación. Describen, respectivamente, al maniquí y su <span lang="en">dress code</span>. Pero es imposible interactuar con un maniquí. Para poder darle vida a una página web debes utilizar un lenguaje de programación. Aquí utilizarás <a href="https://github.com/profesorfaco/bases/wiki/JavaScript" title="Wiki del Repositorio" target="_blank">JavaScript</a>, tomando atajos de <a href="https://github.com/profesorfaco/bases/wiki/jQuery" title="Wiki del Repositorio" target="_blank">jQuery</a>.</p>
+    <h4>1. Manipular el DOM</h4>
+    <p>Esta página web aparece en tu navegador con un <span lang="en">fade in</span> de 2 segundos, y te ofrece contenidos que no pueden estar definidos de modo estático; está la fecha del día que depende de lo configurado en tu computador; están nombre, apellido y edad que dependen de lo que ingreses en el formulario. Incluso hay un cambio de colores dependiente de la edad ingresada. Todo esto se logra mediante programación que manipula el <a href="https://es.wikipedia.org/wiki/Document_Object_Model" title="Wikipedia" target="_blank">Document Object Model (DOM)</a>.</p>
+    <p>Cuando le indicas al navegador "Ver el código fuente de la página", lo que obtienes es la descripción de tal página, algo idéntico a lo que se pudo escribir en un <a href="https://es.wikipedia.org/wiki/Editor_de_código_fuente" title="Wikipedia" target="_blank">Editor de código fuente</a>. Ese escrito es analizado por el navegador y un resultado de tal análisis es el DOM; esto último es lo que se manipula con JavaScript. Dicho de un modo simple, el DOM es donde la máquina hace cosas y Javascript es el lenguaje que le indica a la máquina qué cosas hacer.</p>
+    <h4>2. Consola de JavaScript</h4>
+    <p>Cuando usas JavaScript, o <a href="https://www.javascripting.com/" target="_blank" title="JavaScripting.com | The Database of JavaScript Libraries">cualquiera de sus bibliotecas</a>, es posible obtener información asomándose a la consola del navegador:</p>
+    <ul>
+      <li>Si estás usando <strong>Chrome</strong> en PC, presiona Ctrl + Shift + J. Si estás usando el mismo navegador en Mac, presiona Cmd + Alt + J</li>
+      <li>Si estás usando <strong>Firefox</strong> en PC, presiona Ctrl + Shift + K. Si estás usando el mismo navegador en Mac, presiona: Cmd + Alt + K</li>
+      <li>Si estás usando <strong>Safari</strong>, presiona: Cmd + Alt + C (aunque no es recomendable seguir trabajando con este navegador web, descarga uno de los anteriores)</li>
+    </ul>
+    <p>En el caso de esta página web, cuando te asomas a la consola puedes leer su fecha de carga. También podrás ver cambios después de ingresar los datos del formulario.</p>
+    <p>En la consola también puedes escribir algo directamente. Intenta copiando, pegando y presionando Enter (<sub>&crarr;</sub>):</p>
+    <pre><code>var primero = "para";
+var segundo = "choque";
+alert(primero + segundo);</code></pre>
+    <p>Lo que recién hiciste fue crear dos <strong>var</strong>iables. A cada una asignaste como contenido una "cadena de caracteres". Luego obtuviste un resultado. Esto puede cambiar si asignamos otro tipo de contenido a las variables:</p>
+    <pre><code>var primero = 20;
+var segundo = 30;
+alert(primero + segundo);</code></pre>
+    <p>Para cerrar esta introducción, puedes copiar, pegar y presionar Enter (<sub>&crarr;</sub>) con lo siguiente:</p>
+    <pre><code>document.write(Math.round((50 + 50) * Math.PI));</code></pre>
+    <p id="cierre">Después de la lectura de esta página web y un vistazo rápido a sus vínculos, puedes pasar a revisar línea por línea su código fuente (index.html), su estilo vinculado (estilo.css), y la programación que la afecta (interactuar.js). Allí tienes a los lenguajes <a href="https://github.com/profesorfaco/bases/wiki/HTML" target="_blank">HTML</a>, <a href="https://github.com/profesorfaco/bases/wiki/CSS" target="_blank">CSS</a> y <a href="https://github.com/profesorfaco/bases/wiki/JavaScript" target="_blank">JavaScript</a> integrándose. Comprender esta integración es fundamental para dar un primer paso firme hacia el desarrollo de páginas y aplicaciones web, como <a href="https://github.com/profesorfaco/bases/wiki/Roles#desarrolladora-frontend" target="_blank">FrontEnd</a>.</p>
+  </div>
+  <div id="footer">
+    <form>
+      <input type="text" name="nombre" placeholder="Nombre"/>
+      <input type="text" name="apellido" placeholder="Apellido"/>
+      <input type="text" name="edad" placeholder="Edad"/>
+      <input type="submit" value="Ingresar" />
+    </form>     
+  </div> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="interactuar.js"></script>
+</body>
+</html>
