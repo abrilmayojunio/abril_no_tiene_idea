@@ -1,21 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
-
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
-
 body {
-  color:#ffffff
-;
-
+  color:#ffffff;
   padding:0;
   margin:0;
   margin-bottom:5rem;
 font-family: 'PT Sans', sans-serif;
-  background:#0000ff;
+  background: #0000ff;
   line-height: 1.75;
 }
-@media screen and (orien)
-
 
 a{
   color:#222;
@@ -96,7 +89,7 @@ pre{
 }
 
 code{
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-size:90%;
   color:#7b1fa2;
 }
