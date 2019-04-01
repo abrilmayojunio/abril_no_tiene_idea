@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono:300');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Bentham');
+
 body {
-  color:#ffffff;
+  color: #5DDBBA  ;
   padding:0;
   margin:0;
   margin-bottom:5rem;
-font-family: 'PT Sans', sans-serif;
-  background: #0000ff;
+font-family: 'Bentham', serif;
+  background: #D5FFE2;
   line-height: 1.75;
 }
 
@@ -36,7 +38,7 @@ h1,h2{margin:0; padding:0;}
 #footer {
     position: fixed;
     min-height: 5rem;
-    background-color: #b0bec5;
+    background-color: #5DDBBA;
     bottom: 0;
     left: 0;
     right: 0;
@@ -59,8 +61,8 @@ form input[type="submit"]{
     display: inline-block;
     padding: .4rem 1rem;
     margin-left: 0.5rem;
-    background: #808e95;
-    color: #ffffff;
+    background: #D5FFE2;
+    color: #5DDBBA;
     cursor: pointer;
     text-align: center;
     border:none;
